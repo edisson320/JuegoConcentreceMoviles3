@@ -64,6 +64,7 @@ function seleccionarTarjeta(i) {
     if (selecciones.length == 2) {
         deseleccionar(selecciones)
         selecciones = []
+        conteo = []
     }
 }
 //Funcion para selecionar las imagenes para adivinar, Queda pendiente Hacer el conteo.
@@ -80,6 +81,7 @@ function deseleccionar(selecciones) {
         }else{
             trasera1.style.background = "plum"
             trasera2.style.background = "plum"
+        
         }
     }, 1000);
 }
